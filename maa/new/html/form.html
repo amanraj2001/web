@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+     
+    </style>
+</head>
+<body>
+    <h2 style="text-align:center ;">Employee Form</h2>
+    <section>
+        <div >
+        <form >
+            <fieldset border="2px black" width="50%">
+            <label for="formname">Employee Name :</label><br>
+            <input type="text" id="formname" name="formname" placeholder="George" autofocus required><br><br>
+            <label for="Formage">Employee Age :</label><br>
+            <input type="number" id="Formage"   required><br><br>
+
+            <label for="formgen">Gender:</label><br>
+            <input type="radio" id="formgen" name="gen">
+            <label for="gend">Male</label>
+            <input type="radio" id="gend" name="gen">
+            <label for="gend">Female</label><br><br>
+
+            <label for="Edesignation">Designation:</label>
+            <select id="Edesignation" required>
+                <option value="trainer" >Trainer</option>
+                <option value="HR">HR</option>
+                <option value="SR. developer">Senior Developer</option>
+                <option value="HOD">HOD</option>
+            </select><br><br>
+            <label for="Esalary">Salary:</label><br>
+            <input type="number" id="Esalary" required><br><br>
+            <label for="Elocation">Location:</label>
+            <select id="Elocation" required>
+                <option value="Ahmedabad">Ahmedabad</option>
+                <option value="Surat">Surat</option>
+                <option value="Rajkot">Rajkot</option>
+                <option value="Others">Others</option>
+            </select><br><br>
+            <label for="Email">Enter Your Email:</label>  
+            <input type="email" id="Email" required><br><br> 
+            <label for="DOJ">Date of joining:</label>
+            <input type="date" id="DOJ" max="2023-03-01" required><br><br>
+            <label for="contnum">Contact Number:</label>
+            <input type="tel" id="contnum" maxlength="10" placeholder="123-4567-890" pattern="[0-9]{3}-[0-9]{4}-[0-9]{3}" required><br><br>
+
+            <button type="submit">Submit</button>
+
+            </fieldset>
+            
+            
+            
+        </form>
+    </div>
+    </section>
+</body>
+</html>
